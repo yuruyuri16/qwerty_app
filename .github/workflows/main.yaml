@@ -21,6 +21,7 @@ jobs:
     with:
       flutter_channel: stable
       test_recursion: true
+      min_coverage: 100
 
   spell-check:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@v1
