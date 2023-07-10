@@ -5,10 +5,18 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "/storage/storage"
+    directory: "/packages/storage/storage"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "/storage/secure_storage"
+    directory: "/packages/storage/secure_storage"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/qwerty_api_client/qwerty_api_client"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/qwerty_api_client/dio_qwerty_api_client"
     schedule:
       interval: "daily"
