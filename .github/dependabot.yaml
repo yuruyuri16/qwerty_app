@@ -24,3 +24,7 @@ updates:
     directory: "/packages/app_ui"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/form_inputs"
+    schedule:
+      interval: "daily"
