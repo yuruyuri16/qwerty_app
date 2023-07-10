@@ -1,0 +1,18 @@
+name: app_ui
+description: A Very Good Project created by Very Good CLI.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: 3.10.5
+
+dependencies:
+  flex_color_scheme: ^7.1.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^5.0.0+1

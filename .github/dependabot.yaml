@@ -20,3 +20,7 @@ updates:
     directory: "/packages/qwerty_api_client/dio_qwerty_api_client"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/app_ui"
+    schedule:
+      interval: "daily"
