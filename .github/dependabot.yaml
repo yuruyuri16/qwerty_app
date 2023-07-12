@@ -28,3 +28,15 @@ updates:
     directory: "/packages/form_inputs"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/authentication_client/authentication_client"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/authentication_client/dio_authentication_client"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/packages/authentication_client/token_storage"
+    schedule:
+      interval: "daily"

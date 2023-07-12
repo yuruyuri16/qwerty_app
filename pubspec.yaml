@@ -10,8 +10,14 @@ dependencies:
   app_ui:
     path: packages/app_ui
   bloc: ^8.1.2
+  bloc_concurrency: ^0.2.2
+  cached_network_image: ^3.2.3
+  dio: ^5.2.1+1
+  dio_authentication_client:
+    path: packages/authentication_client/dio_authentication_client
   dio_qwerty_api_client:
     path: packages/qwerty_api_client/dio_qwerty_api_client
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.3
@@ -19,9 +25,18 @@ dependencies:
     sdk: flutter
   form_inputs:
     path: packages/form_inputs
+  go_router: ^9.0.3
   intl: ^0.18.0
+  rick_and_morty_repository:
+    path: packages/rick_and_morty_repository
   secure_storage:
     path: packages/storage/secure_storage
+  shimmer: ^3.0.0
+  stream_transform: ^2.1.0
+  token_storage:
+    path: packages/authentication_client/token_storage
+  user_repository:
+    path: packages/user_repository
 
 dev_dependencies:
   bloc_test: ^9.1.2
